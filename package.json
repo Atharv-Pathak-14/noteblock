@@ -24,10 +24,7 @@
     "node": ">=v16.x"
   },
   "scripts": {
-    "start": "bash start.sh",
-    "start:normal": "node src",
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "start": "node src"
   },
   "devDependencies": {
     "eslint": "8.9.0",
